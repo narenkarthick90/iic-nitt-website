@@ -126,22 +126,29 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter */}
+        {/* Partner Logos */}
         <div className="border-t border-border pt-8 mb-8">
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Stay Updated</h4>
-              <p className="text-muted-foreground">Get the latest news about our programs and events.</p>
-            </div>
-            <div className="flex space-x-4 w-full md:w-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 md:w-80 px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <Button variant="hero">
-                Subscribe
-              </Button>
+          <div className="text-center">
+            <h4 className="text-lg font-semibold mb-6">Powered By</h4>
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-12">
+              <div className="flex items-center space-x-3">
+                <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center">
+                  <span className="text-primary-foreground font-bold text-sm">MoE</span>
+                </div>
+                <div>
+                  <p className="text-foreground font-semibold">Ministry of Education</p>
+                  <p className="text-muted-foreground text-sm">Government of India</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center">
+                  <span className="text-primary-foreground font-bold text-sm">NITT</span>
+                </div>
+                <div>
+                  <p className="text-foreground font-semibold">NIT Tiruchirappalli</p>
+                  <p className="text-muted-foreground text-sm">Institute of National Importance</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

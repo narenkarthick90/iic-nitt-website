@@ -54,26 +54,28 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button variant="hero" size="lg" className="text-lg">
-              <Rocket className="h-5 w-5" />
-              Start Your Journey
-              <ArrowRight className="h-5 w-5" />
+            <Button variant="hero" size="lg" className="text-lg" asChild>
+              <a href="https://forms.google.com/your-form-id" target="_blank" rel="noopener noreferrer">
+                <Rocket className="h-5 w-5" />
+                Start Your Journey
+                <ArrowRight className="h-5 w-5" />
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="text-lg">
               <Users className="h-5 w-5" />
-              Explore Programs
+              Join Community
             </Button>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="text-3xl font-bold text-primary mb-2">50+</div>
+              <div className="text-3xl font-bold text-primary mb-2">20+</div>
               <div className="text-muted-foreground">Active Startups</div>
             </div>
             <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="text-3xl font-bold text-secondary mb-2">200+</div>
-              <div className="text-muted-foreground">Innovation Projects</div>
+              <div className="text-3xl font-bold text-secondary mb-2">100+</div>
+              <div className="text-muted-foreground">Programs</div>
             </div>
             <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
               <div className="text-3xl font-bold text-tertiary mb-2">1000+</div>

@@ -69,7 +69,7 @@ const Activities = () => {
         </div>
 
         {/* Main Activities */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
           {activities.map((activity, index) => (
             <Card key={index} className="border-primary/20 hover:shadow-card transition-all duration-300 group">
               <CardContent className="p-6 text-center">
@@ -83,6 +83,40 @@ const Activities = () => {
               </CardContent>
             </Card>
           ))}
+          
+          {/* Genesis - Coming Soon */}
+          <Card className="border-primary/20 hover:shadow-card transition-all duration-300 group relative overflow-hidden">
+            <CardContent className="p-6 text-center">
+              <div className="mb-6 flex justify-center">
+                <div className="p-4 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
+                  <Rocket className="h-8 w-8 text-primary-foreground" />
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Genesis</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">Revolutionary innovation program launching soon</p>
+              <div className="absolute top-4 right-4 bg-secondary text-secondary-foreground text-xs px-2 py-1 rounded-full">
+                Coming Soon
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Eureka Section */}
+        <div className="mb-16">
+          <Card className="border-primary/20 bg-gradient-card p-8 text-center">
+            <div className="mb-6 flex justify-center">
+              <div className="p-4 bg-gradient-hero rounded-lg">
+                <Trophy className="h-12 w-12 text-primary-foreground" />
+              </div>
+            </div>
+            <h3 className="text-3xl font-bold mb-4">Eureka</h3>
+            <p className="text-muted-foreground text-lg mb-6 max-w-2xl mx-auto">
+              Our flagship innovation discovery platform - where breakthrough ideas meet exceptional execution
+            </p>
+            <div className="inline-flex items-center space-x-2 bg-secondary/20 border border-secondary/40 rounded-full px-4 py-2">
+              <span className="text-sm font-medium text-secondary">Coming Soon</span>
+            </div>
+          </Card>
         </div>
 
         {/* Upcoming Events */}

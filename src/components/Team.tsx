@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, User } from "lucide-react";
 
 const Team = () => {
-  const leadership = [
+  const facultyCore = [
     {
       name: "Prof. Dr. Rajesh Kumar",
       position: "Director & Chief Patron",
@@ -23,34 +23,60 @@ const Team = () => {
     }
   ];
 
-  const coordinators = [
+  const studentCore = [
     {
-      name: "Dr. Arun Krishnan",
-      position: "Faculty Coordinator",
-      department: "Computer Science & Engineering",
-      image: "",
-      expertise: ["Tech Innovation", "AI/ML"]
-    },
-    {
-      name: "Dr. Meera Nair",
-      position: "Faculty Coordinator",
-      department: "Mechanical Engineering",
-      image: "",
-      expertise: ["Product Development", "Design Thinking"]
-    },
-    {
-      name: "Arjun Patel",
-      position: "Student Coordinator",
-      department: "Final Year, ECE",
-      image: "",
-      expertise: ["Student Engagement", "Event Management"]
-    },
-    {
-      name: "Sneha Reddy",
-      position: "Student Coordinator",
+      name: "Muthukumaran",
+      position: "President",
       department: "Final Year, CSE",
       image: "",
-      expertise: ["Technology", "Startup Mentoring"]
+      expertise: ["Leadership", "Strategic Planning"],
+      linkedin: "https://linkedin.com/in/muthukumaran",
+      email: "muthukumaran@student.nitt.edu"
+    },
+    {
+      name: "Surrender",
+      position: "President",
+      department: "Final Year, ECE",
+      image: "",
+      expertise: ["Innovation Management", "Team Leadership"],
+      linkedin: "https://linkedin.com/in/surrender",
+      email: "surrender@student.nitt.edu"
+    },
+    {
+      name: "Ritik",
+      position: "Vice President",
+      department: "Final Year, CSE",
+      image: "",
+      expertise: ["Product Development", "Technology"],
+      linkedin: "https://linkedin.com/in/ritik",
+      email: "ritik@student.nitt.edu"
+    },
+    {
+      name: "Sri Harini",
+      position: "Chairperson",
+      department: "Final Year, ME",
+      image: "",
+      expertise: ["Event Management", "Communications"],
+      linkedin: "https://linkedin.com/in/sriharini",
+      email: "sriharini@student.nitt.edu"
+    },
+    {
+      name: "Arjun",
+      position: "Innovation Secretary",
+      department: "Final Year, ECE",
+      image: "",
+      expertise: ["Innovation Strategy", "Research"],
+      linkedin: "https://linkedin.com/in/arjun",
+      email: "arjun@student.nitt.edu"
+    },
+    {
+      name: "Tarunya",
+      position: "General Secretary",
+      department: "Final Year, CSE",
+      image: "",
+      expertise: ["Administration", "Operations"],
+      linkedin: "https://linkedin.com/in/tarunya",
+      email: "tarunya@student.nitt.edu"
     }
   ];
 
@@ -102,12 +128,16 @@ const Team = () => {
           ))}
         </div>
         <div className="flex justify-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <button className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
-            <Linkedin className="h-4 w-4" />
-          </button>
-          <button className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
-            <Mail className="h-4 w-4" />
-          </button>
+          {member.linkedin && (
+            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
+              <Linkedin className="h-4 w-4" />
+            </a>
+          )}
+          {member.email && (
+            <a href={`mailto:${member.email}`} className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
+              <Mail className="h-4 w-4" />
+            </a>
+          )}
         </div>
       </CardContent>
     </Card>
@@ -126,21 +156,21 @@ const Team = () => {
           </p>
         </div>
 
-        {/* Leadership */}
+        {/* Faculty Core */}
         <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12">Leadership</h3>
+          <h3 className="text-3xl font-bold text-center mb-12">Faculty Core</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {leadership.map((member, index) => (
+            {facultyCore.map((member, index) => (
               <TeamMemberCard key={index} member={member} showBio={true} />
             ))}
           </div>
         </div>
 
-        {/* Coordinators */}
+        {/* Student Core */}
         <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12">Coordinators</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {coordinators.map((member, index) => (
+          <h3 className="text-3xl font-bold text-center mb-12">Student Core</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {studentCore.map((member, index) => (
               <TeamMemberCard key={index} member={member} />
             ))}
           </div>
