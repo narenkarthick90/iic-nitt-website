@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Lightbulb, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import iicLogo from "@/assets/iic-logo.png";
+import nittLogo from "@/assets/nitt-logo.png";
+import moeLogo from "@/assets/moe-logo.png";
 
 const Footer = () => {
   const quickLinks = [
@@ -30,8 +33,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="p-2 bg-gradient-hero rounded-lg">
-                <Lightbulb className="h-8 w-8 text-primary-foreground" />
+              <div className="flex items-center space-x-2">
+                <img src={iicLogo} alt="IIC Logo" className="h-8 w-8" />
+                <img src={nittLogo} alt="NITT Logo" className="h-8 w-8" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-foreground">IIC NITT</h3>
@@ -132,18 +136,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Powered By</h4>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-12">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">MoE</span>
-                </div>
+                <img src={moeLogo} alt="Ministry of Education Logo" className="w-12 h-12" />
                 <div>
                   <p className="text-foreground font-semibold">Ministry of Education</p>
                   <p className="text-muted-foreground text-sm">Government of India</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">NITT</span>
-                </div>
+                <img src={nittLogo} alt="NITT Logo" className="w-12 h-12" />
                 <div>
                   <p className="text-foreground font-semibold">NIT Tiruchirappalli</p>
                   <p className="text-muted-foreground text-sm">Institute of National Importance</p>

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Lightbulb } from "lucide-react";
+import iicLogo from "@/assets/iic-logo.png";
+import nittLogo from "@/assets/nitt-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,12 +22,13 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="p-2 bg-gradient-hero rounded-lg">
-              <Lightbulb className="h-8 w-8 text-primary-foreground" />
+            <div className="flex items-center space-x-2">
+              <img src={iicLogo} alt="IIC Logo" className="h-10 w-10" />
+              <img src={nittLogo} alt="NITT Logo" className="h-10 w-10" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-foreground">IIC NITT</h1>
-              <p className="text-sm text-muted-foreground">Institution's Innovation Council</p>
+              <h1 className="text-xl font-bold text-foreground">IIC NITT</h1>
+              <p className="text-xs text-muted-foreground">Innovation Council</p>
             </div>
           </div>
 

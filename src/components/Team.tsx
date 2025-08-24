@@ -80,26 +80,6 @@ const Team = () => {
     }
   ];
 
-  const advisors = [
-    {
-      name: "Mr. Vikram Singh",
-      position: "Industry Mentor",
-      company: "TechMahindra",
-      expertise: ["Corporate Innovation", "Scaling Startups"]
-    },
-    {
-      name: "Ms. Deepika Agarwal",
-      position: "Startup Mentor",
-      company: "Former Founder, InnovateX",
-      expertise: ["Entrepreneurship", "Product Strategy"]
-    },
-    {
-      name: "Dr. Suresh Babu",
-      position: "Research Advisor",
-      company: "IIT Madras",
-      expertise: ["Deep Tech", "Research Commercialization"]
-    }
-  ];
 
   const TeamMemberCard = ({ member, showBio = false }: { member: any, showBio?: boolean }) => (
     <Card className="border-primary/20 hover:shadow-card transition-all duration-300 group">
@@ -176,15 +156,6 @@ const Team = () => {
           </div>
         </div>
 
-        {/* Advisory Board */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12">Advisory Board</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {advisors.map((member, index) => (
-              <TeamMemberCard key={index} member={member} />
-            ))}
-          </div>
-        </div>
 
         {/* Join Our Team CTA */}
         <div className="text-center bg-gradient-card border border-primary/20 rounded-2xl p-8 md:p-12">

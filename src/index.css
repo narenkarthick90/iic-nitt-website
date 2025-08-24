@@ -17,21 +17,21 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 9% 9%;
 
-    /* IIC Brand Colors - Innovation Blue & Orange */
-    --primary: 220 91% 48%;
+    /* IIC Brand Colors - Based on institutional logo */
+    --primary: 220 100% 30%;
     --primary-foreground: 0 0% 98%;
     --primary-glow: 220 91% 68%;
 
-    --secondary: 25 95% 53%;
+    --secondary: 0 72% 51%;
     --secondary-foreground: 0 0% 98%;
 
-    --tertiary: 203 89% 53%;
-    --tertiary-foreground: 0 0% 98%;
+    --tertiary: 45 100% 50%;
+    --tertiary-foreground: 222 47% 11%;
 
     --muted: 220 13% 95%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 25 95% 53%;
+    --accent: 210 100% 50%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
@@ -78,20 +78,20 @@ All colors MUST be HSL.
     --popover: 220 26% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 220 91% 68%;
+    --primary: 220 100% 50%;
     --primary-foreground: 220 26% 8%;
     --primary-glow: 220 91% 78%;
 
-    --secondary: 25 95% 63%;
+    --secondary: 0 72% 61%;
     --secondary-foreground: 220 26% 8%;
 
-    --tertiary: 203 89% 63%;
+    --tertiary: 45 100% 60%;
     --tertiary-foreground: 220 26% 8%;
 
     --muted: 220 26% 16%;
     --muted-foreground: 220 9% 65%;
 
-    --accent: 25 95% 63%;
+    --accent: 210 100% 60%;
     --accent-foreground: 220 26% 8%;
 
     --destructive: 0 84% 60%;
