@@ -157,25 +157,35 @@ const Team = () => {
         </div>
 
 
-        {/* Join Our Team CTA */}
-        <div className="text-center bg-gradient-card border border-primary/20 rounded-2xl p-8 md:p-12">
+        {/* Join Our Community CTA */}
+        <div className="text-center bg-background/80 backdrop-blur-sm border border-primary/20 rounded-2xl p-8 md:p-12">
           <div className="mb-6 flex justify-center">
-            <div className="p-4 bg-gradient-hero rounded-lg">
+            <div className="p-4 bg-primary rounded-lg">
               <User className="h-12 w-12 text-primary-foreground" />
             </div>
           </div>
-          <h4 className="text-3xl font-bold mb-4">Join Our Team</h4>
+          <h4 className="text-3xl font-bold mb-4">Join Our Community</h4>
           <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-            Are you passionate about innovation and entrepreneurship? We're always looking for 
-            dedicated individuals to join our mission of fostering innovation at NITT.
+            Be part of the innovation ecosystem at NITT. Connect with like-minded innovators, entrepreneurs, 
+            and change-makers in our vibrant community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:-translate-y-0.5 shadow-md hover:shadow-lg">
-              Faculty Positions
-            </button>
-            <button className="border border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary/40 px-8 py-3 rounded-lg font-medium transition-all duration-300">
-              Student Volunteer
-            </button>
+            <a 
+              href="https://chat.whatsapp.com/EDkRyIlEgmvFmAyWFNGcxQ?mode=ac_t" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:-translate-y-0.5 shadow-md hover:shadow-lg inline-block"
+            >
+              WhatsApp Community
+            </a>
+            <a 
+              href="https://www.instagram.com/iic.nitt?igsh=MWZsMXlzdGU2cjhwMQ=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary/40 px-8 py-3 rounded-lg font-medium transition-all duration-300 inline-block"
+            >
+              Follow on Instagram
+            </a>
           </div>
         </div>
       </div>
