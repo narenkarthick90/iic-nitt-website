@@ -60,7 +60,7 @@ const Activities = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="bg-gradient-hero bg-clip-text text-transparent">Activities</span>
+            <span className="text-primary">Our</span> <span className="text-secondary">Activities</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Discover the diverse range of programs and events designed to nurture innovation 

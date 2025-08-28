@@ -35,13 +35,13 @@ const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="bg-gradient-hero bg-clip-text text-transparent">
+            <span className="text-primary">
               Institution's
             </span>
             <br />
-            <span className="text-foreground">Innovation Council</span>
+            <span className="text-secondary">Innovation Council</span>
             <br />
-            <span className="text-2xl md:text-4xl font-normal text-muted-foreground">
+            <span className="text-2xl md:text-4xl font-normal text-tertiary">
               NIT Tiruchirappalli
             </span>
           </h1>

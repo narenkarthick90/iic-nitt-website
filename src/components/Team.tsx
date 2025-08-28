@@ -128,7 +128,7 @@ const Team = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="bg-gradient-hero bg-clip-text text-transparent">Team</span>
+            <span className="text-primary">Our</span> <span className="text-secondary">Team</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Meet the dedicated individuals driving innovation and entrepreneurship at IIC NITT through 
