@@ -18,14 +18,14 @@ All colors MUST be HSL.
     --popover-foreground: 220 9% 9%;
 
     /* IIC Brand Colors - Red, Yellow, Blue */
-    --primary: 220 100% 50%;
+    --primary: 220 100% 45%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 0 100% 50%;
+    --secondary: 0 85% 55%;
     --secondary-foreground: 0 0% 98%;
 
     --tertiary: 45 100% 50%;
-    --tertiary-foreground: 0 0% 15%;
+    --tertiary-foreground: 220 9% 9%;
 
     --muted: 220 13% 95%;
     --muted-foreground: 220 9% 46%;
@@ -75,11 +75,10 @@ All colors MUST be HSL.
     --popover: 220 26% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 220 100% 50%;
+    --primary: 220 100% 55%;
     --primary-foreground: 220 26% 8%;
-    --primary-glow: 220 91% 78%;
 
-    --secondary: 0 72% 61%;
+    --secondary: 0 85% 65%;
     --secondary-foreground: 220 26% 8%;
 
     --tertiary: 45 100% 60%;
