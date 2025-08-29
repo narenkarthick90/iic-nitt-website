@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Rocket, Users } from "lucide-react";
+import { ArrowRight, Sparkles, Rocket, Users, TrendingUp, Award, BookOpen } from "lucide-react";
 import clockTowerImage from "@/assets/nitt-clock-tower.jpg";
 
 const Hero = () => {
@@ -70,16 +70,25 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="text-3xl font-bold text-primary mb-2">20+</div>
-              <div className="text-muted-foreground">Active Startups</div>
+              <div className="flex items-center justify-center mb-3">
+                <TrendingUp className="h-8 w-8 text-primary" />
+              </div>
+              <div className="text-3xl font-bold text-primary mb-2 text-center">20+</div>
+              <div className="text-muted-foreground text-center">Active Startups</div>
             </div>
             <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="text-3xl font-bold text-secondary mb-2">100+</div>
-              <div className="text-muted-foreground">Programs</div>
+              <div className="flex items-center justify-center mb-3">
+                <BookOpen className="h-8 w-8 text-secondary" />
+              </div>
+              <div className="text-3xl font-bold text-secondary mb-2 text-center">100+</div>
+              <div className="text-muted-foreground text-center">Programs</div>
             </div>
             <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="text-3xl font-bold text-tertiary mb-2">1000+</div>
-              <div className="text-muted-foreground">Students Impacted</div>
+              <div className="flex items-center justify-center mb-3">
+                <Award className="h-8 w-8 text-tertiary" />
+              </div>
+              <div className="text-3xl font-bold text-tertiary mb-2 text-center">1000+</div>
+              <div className="text-muted-foreground text-center">Students Impacted</div>
             </div>
           </div>
         </div>

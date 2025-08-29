@@ -1,22 +1,22 @@
 import { Button } from "@/components/ui/button";
-import { Lightbulb, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Lightbulb, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, Link2, Code, Handshake, Calendar } from "lucide-react";
 import iicLogo from "@/assets/iic-logo.png";
 import nittLogo from "@/assets/nitt-logo.png";
 import moeLogo from "@/assets/moe-logo.png";
 
 const Footer = () => {
   const quickLinks = [
-    { name: "About Us", href: "#about" },
-    { name: "Activities", href: "#activities" },
-    { name: "Startups", href: "#startups" },
-    { name: "Team", href: "#team" },
+    { name: "About Us", href: "#about", icon: Lightbulb },
+    { name: "Activities", href: "#activities", icon: Calendar },
+    { name: "Startups", href: "#startups", icon: Code },
+    { name: "Team", href: "#team", icon: Handshake },
   ];
 
   const programs = [
-    { name: "Innovation Fellowship", href: "#" },
-    { name: "Startup Incubation", href: "#" },
-    { name: "Mentorship Program", href: "#" },
-    { name: "Innovation Challenges", href: "#" },
+    { name: "Innovation Fellowship", href: "#", icon: Lightbulb },
+    { name: "Startup Incubation", href: "#", icon: Code },
+    { name: "Mentorship Program", href: "#", icon: Handshake },
+    { name: "Innovation Challenges", href: "#", icon: Calendar },
   ];
 
   const socialLinks = [
@@ -62,14 +62,18 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-6 flex items-center">
+              <Link2 className="h-5 w-5 text-primary mr-2" />
+              Quick Links
+            </h4>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="text-muted-foreground hover:text-primary transition-colors duration-300"
+                    className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center"
                   >
+                    <link.icon className="h-4 w-4 mr-2" />
                     {link.name}
                   </a>
                 </li>
@@ -79,14 +83,18 @@ const Footer = () => {
 
           {/* Programs */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Programs</h4>
+            <h4 className="text-lg font-semibold mb-6 flex items-center">
+              <Code className="h-5 w-5 text-primary mr-2" />
+              Programs
+            </h4>
             <ul className="space-y-3">
               {programs.map((program, index) => (
                 <li key={index}>
                   <a
                     href={program.href}
-                    className="text-muted-foreground hover:text-primary transition-colors duration-300"
+                    className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center"
                   >
+                    <program.icon className="h-4 w-4 mr-2" />
                     {program.name}
                   </a>
                 </li>
@@ -96,7 +104,10 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-6 flex items-center">
+              <Phone className="h-5 w-5 text-primary mr-2" />
+              Contact Us
+            </h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />

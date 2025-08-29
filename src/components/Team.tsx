@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { Linkedin, Mail, User } from "lucide-react";
+import { Linkedin, Mail, User, GraduationCap, Users2 } from "lucide-react";
 
 const Team = () => {
   const facultyCore = [
@@ -138,7 +138,10 @@ const Team = () => {
 
         {/* Faculty Core */}
         <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12">Faculty Core</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 flex items-center justify-center">
+            <GraduationCap className="h-8 w-8 text-primary mr-3" />
+            Faculty Core
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {facultyCore.map((member, index) => (
               <TeamMemberCard key={index} member={member} showBio={true} />
@@ -148,7 +151,10 @@ const Team = () => {
 
         {/* Student Core */}
         <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12">Student Core</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 flex items-center justify-center">
+            <Users2 className="h-8 w-8 text-primary mr-3" />
+            Student Core
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {studentCore.map((member, index) => (
               <TeamMemberCard key={index} member={member} />

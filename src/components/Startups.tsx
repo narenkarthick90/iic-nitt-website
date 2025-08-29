@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, TrendingUp, Award, Users, Zap } from "lucide-react";
+import { ExternalLink, TrendingUp, Award, Users, Zap, Rocket, Target, Building2 } from "lucide-react";
 
 const Startups = () => {
   const startups = [
@@ -61,7 +61,8 @@ const Startups = () => {
     <section id="startups" className="py-20 bg-gradient-card">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 flex items-center justify-center">
+            <Building2 className="h-12 w-12 text-primary mr-4" />
             <span className="text-primary">Startup</span> <span className="text-secondary">Support</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -73,7 +74,10 @@ const Startups = () => {
 
         {/* Support Services */}
         <div>
-          <h3 className="text-3xl font-bold text-center mb-12">How We Support Startups</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 flex items-center justify-center">
+            <Target className="h-8 w-8 text-primary mr-3" />
+            How We Support Startups
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {supportServices.map((service, index) => (
               <Card key={index} className="border-primary/20 hover:shadow-card transition-all duration-300 text-center group">

@@ -81,7 +81,7 @@ const About = () => {
                 <div className="p-3 bg-primary/10 rounded-lg mr-4">
                   <Eye className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold"><span className="text-primary">Our</span> <span className="text-secondary">Vision</span></h3>
+                <h3 className="text-2xl font-bold flex items-center"><Eye className="h-6 w-6 text-primary mr-2" /><span className="text-primary">Our</span> <span className="text-secondary">Vision</span></h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 To establish NITT as a leading innovation hub that produces world-class entrepreneurs 
@@ -97,7 +97,7 @@ const About = () => {
                 <div className="p-3 bg-secondary/10 rounded-lg mr-4">
                   <Target className="h-8 w-8 text-secondary" />
                 </div>
-                <h3 className="text-2xl font-bold"><span className="text-secondary">Our</span> <span className="text-tertiary">Mission</span></h3>
+                <h3 className="text-2xl font-bold flex items-center"><Target className="h-6 w-6 text-secondary mr-2" /><span className="text-secondary">Our</span> <span className="text-tertiary">Mission</span></h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 To foster innovation and entrepreneurship through comprehensive programs, mentorship, 
