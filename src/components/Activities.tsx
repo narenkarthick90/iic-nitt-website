@@ -15,8 +15,8 @@ const Activities = () => {
       icon: Presentation,
       title: "Startup Pitch Events",
       description: "Platform for students to present their startup ideas to investors and mentors",
-      color: "text-secondary",
-      bgColor: "bg-secondary/10"
+      color: "text-primary",
+      bgColor: "bg-primary/10"
     },
     {
       icon: BookOpen,
@@ -29,8 +29,8 @@ const Activities = () => {
       icon: Users,
       title: "Mentorship Programs",
       description: "One-on-one guidance from industry experts and successful entrepreneurs",
-      color: "text-accent",
-      bgColor: "bg-accent/10"
+      color: "text-secondary",
+      bgColor: "bg-secondary/10"
     }
   ];
 
@@ -60,7 +60,7 @@ const Activities = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-primary">Our</span> <span className="text-secondary">Activities</span>
+            <span className="text-primary">Our</span> <span className="text-primary">Activities</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Discover the diverse range of programs and events designed to nurture innovation 

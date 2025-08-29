@@ -31,7 +31,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-primary">About</span> <span className="text-secondary">IIC</span> <span className="text-tertiary">NITT</span>
+            <span className="text-primary">About</span> <span className="text-primary">IIC</span> <span className="text-tertiary">NITT</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             The Institution's Innovation Council at NIT Tiruchirappalli is dedicated to building 
@@ -41,7 +41,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h3 className="text-3xl font-bold mb-6"><span className="text-primary">Empowering</span> <span className="text-secondary">Innovation</span> <span className="text-tertiary">Excellence</span></h3>
+            <h3 className="text-3xl font-bold mb-6"><span className="text-primary">Empowering</span> <span className="text-primary">Innovation</span> <span className="text-tertiary">Excellence</span></h3>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               Established under the Ministry of Education's Innovation Cell initiative, IIC NITT serves as 
               the catalyst for transforming innovative ideas into impactful solutions. We bridge the gap 

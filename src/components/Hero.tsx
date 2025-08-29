@@ -39,9 +39,9 @@ const Hero = () => {
               Institution's
             </span>
             <br />
-            <span className="text-secondary">Innovation Council</span>
+            <span className="text-primary">Innovation Council</span>
             <br />
-            <span className="text-2xl md:text-4xl font-normal text-tertiary">
+            <span className="text-2xl md:text-4xl font-normal text-primary">
               NIT Tiruchirappalli
             </span>
           </h1>
