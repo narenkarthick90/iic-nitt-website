@@ -20,63 +20,44 @@ const Team = () => {
       image: "",
       bio: "Expert in entrepreneurship development and startup ecosystem building",
       expertise: ["Entrepreneurship", "Business Development"]
+    },
+    {
+      name: "Muthukumaran",
+      position: "Faculty Coordinator",
+      department: "Department of Computer Science",
+      image: "",
+      bio: "Driving innovation and entrepreneurship initiatives with strategic leadership",
+      expertise: ["Leadership", "Strategic Planning", "Innovation Management"]
     }
   ];
 
   const studentCore = [
     {
-      name: "Muthukumaran",
-      position: "President",
-      department: "Final Year, CSE",
-      image: "",
-      expertise: ["Leadership", "Strategic Planning"],
-      linkedin: "https://linkedin.com/in/muthukumaran",
-      email: "muthukumaran@student.nitt.edu"
-    },
-    {
-      name: "Surrender",
+      name: "Surender",
       position: "President",
       department: "Final Year, ECE",
       image: "",
       expertise: ["Innovation Management", "Team Leadership"],
-      linkedin: "https://linkedin.com/in/surrender",
-      email: "surrender@student.nitt.edu"
+      linkedin: "https://www.linkedin.com/in/surender-p-a135a325a/",
+      email: "surender@student.nitt.edu"
     },
     {
-      name: "Ritik",
+      name: "Ritik Siklighar",
       position: "Vice President",
       department: "Final Year, CSE",
       image: "",
       expertise: ["Product Development", "Technology"],
-      linkedin: "https://linkedin.com/in/ritik",
+      linkedin: "https://www.linkedin.com/in/ritik-siklighar-aab696254/",
       email: "ritik@student.nitt.edu"
     },
     {
-      name: "Sri Harini",
-      position: "Chairperson",
-      department: "Final Year, ME",
-      image: "",
-      expertise: ["Event Management", "Communications"],
-      linkedin: "https://linkedin.com/in/sriharini",
-      email: "sriharini@student.nitt.edu"
-    },
-    {
-      name: "Arjun",
+      name: "Arjun B K",
       position: "Innovation Secretary",
       department: "Final Year, ECE",
       image: "",
       expertise: ["Innovation Strategy", "Research"],
-      linkedin: "https://linkedin.com/in/arjun",
+      linkedin: "https://www.linkedin.com/in/arjun-b-k",
       email: "arjun@student.nitt.edu"
-    },
-    {
-      name: "Tarunya",
-      position: "General Secretary",
-      department: "Final Year, CSE",
-      image: "",
-      expertise: ["Administration", "Operations"],
-      linkedin: "https://linkedin.com/in/tarunya",
-      email: "tarunya@student.nitt.edu"
     }
   ];
 
