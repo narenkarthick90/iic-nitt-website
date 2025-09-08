@@ -6,20 +6,12 @@ import { Linkedin, Mail, User, GraduationCap, Users2 } from "lucide-react";
 const Team = () => {
   const facultyCore = [
     {
-      name: "Prof. Dr. Rajesh Kumar",
+      name: "Mr. Gideon",
       position: "Director & Chief Patron",
       department: "Office of the Director",
       image: "",
       bio: "Leading institutional innovation initiatives with 25+ years of academic excellence",
       expertise: ["Innovation Strategy", "Institutional Leadership"]
-    },
-    {
-      name: "Dr. Priya Sharma",
-      position: "Chairman, IIC",
-      department: "Department of Management Studies",
-      image: "",
-      bio: "Expert in entrepreneurship development and startup ecosystem building",
-      expertise: ["Entrepreneurship", "Business Development"]
     },
     {
       name: "Muthukumaran",
