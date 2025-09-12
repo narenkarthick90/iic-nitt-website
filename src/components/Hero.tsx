@@ -69,26 +69,31 @@ const Hero = () => {
 
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
+            {/* Card 1 */}
+            <div className="rounded-2xl p-6 bg-gradient-to-br from-purple-500 via-pink-500 to-red-500 text-white shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <div className="flex items-center justify-center mb-3">
-                <TrendingUp className="h-8 w-8 text-primary" />
+                <TrendingUp className="h-8 w-8 text-white drop-shadow-lg" />
               </div>
-              <div className="text-3xl font-bold text-primary mb-2 text-center">20+</div>
-              <div className="text-muted-foreground text-center">Active Startups</div>
+              <div className="text-3xl font-bold mb-2 text-center">20+</div>
+              <div className="text-sm text-center opacity-90">Active Startups</div>
             </div>
-            <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
+
+            {/* Card 2 */}
+            <div className="rounded-2xl p-6 bg-gradient-to-br from-blue-500 via-cyan-500 to-green-400 text-white shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <div className="flex items-center justify-center mb-3">
-                <BookOpen className="h-8 w-8 text-secondary" />
+                <BookOpen className="h-8 w-8 text-white drop-shadow-lg" />
               </div>
-              <div className="text-3xl font-bold text-secondary mb-2 text-center">100+</div>
-              <div className="text-muted-foreground text-center">Programs</div>
+              <div className="text-3xl font-bold mb-2 text-center">100+</div>
+              <div className="text-sm text-center opacity-90">Programs</div>
             </div>
-            <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
+
+            {/* Card 3 */}
+            <div className="rounded-2xl p-6 bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 text-white shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <div className="flex items-center justify-center mb-3">
-                <Award className="h-8 w-8 text-tertiary" />
+                <Award className="h-8 w-8 text-white drop-shadow-lg" />
               </div>
-              <div className="text-3xl font-bold text-tertiary mb-2 text-center">1000+</div>
-              <div className="text-muted-foreground text-center">Students Impacted</div>
+              <div className="text-3xl font-bold mb-2 text-center">1000+</div>
+              <div className="text-sm text-center opacity-90">Students Impacted</div>
             </div>
           </div>
         </div>

@@ -53,41 +53,57 @@ const Team = () => {
     }
   ];
 
+  const gradients = [
+    "bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400",
+    "bg-gradient-to-br from-blue-200 via-blue-300 to-blue-400",
+    "bg-gradient-to-br from-green-200 via-green-300 to-green-400",
+    "bg-gradient-to-br from-yellow-200 via-yellow-300 to-yellow-400",
+    "bg-gradient-to-br from-purple-200 via-purple-300 to-purple-400",
+    "bg-gradient-to-br from-orange-200 via-orange-300 to-orange-400"
+  ];
 
-  const TeamMemberCard = ({ member, showBio = false }: { member: any, showBio?: boolean }) => (
-    <Card className="border-primary/20 hover:shadow-card transition-all duration-300 group">
+  const TeamMemberCard = ({ member, index, showBio = false }: { member: any, index: number, showBio?: boolean }) => (
+    <Card
+      className={`${gradients[index % gradients.length]} border-primary/20 hover:shadow-xl hover:scale-105 transition-all duration-500 group rounded-xl`}
+    >
       <CardContent className="p-6 text-center">
         <div className="mb-4 flex justify-center">
           <Avatar className="h-20 w-20">
             <AvatarImage src={member.image} alt={member.name} />
-            <AvatarFallback className="bg-gradient-hero text-primary-foreground text-lg">
+            <AvatarFallback className="bg-white/60 text-black text-lg">
               {member.name.split(' ').map((n: string) => n[0]).join('')}
             </AvatarFallback>
           </Avatar>
         </div>
-        <h4 className="text-lg font-semibold mb-1">{member.name}</h4>
+        <h4 className="text-lg font-semibold mb-1 text-black">{member.name}</h4>
         <p className="text-primary font-medium mb-2">{member.position}</p>
-        <p className="text-sm text-muted-foreground mb-3">
-          {member.department || member.company}
-        </p>
+        <p className="text-sm text-black/70 mb-3">{member.department || member.company}</p>
         {showBio && member.bio && (
-          <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{member.bio}</p>
+          <p className="text-sm text-black/80 mb-4 leading-relaxed">{member.bio}</p>
         )}
         <div className="flex flex-wrap gap-1 justify-center mb-4">
-          {member.expertise.map((skill: string, index: number) => (
-            <Badge key={index} variant="secondary" className="text-xs">
+          {member.expertise.map((skill: string, idx: number) => (
+            <Badge key={idx} variant="secondary" className="text-xs bg-white/50 text-black">
               {skill}
             </Badge>
           ))}
         </div>
         <div className="flex justify-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           {member.linkedin && (
-            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
+            <a
+              href={member.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 bg-white/40 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300"
+            >
               <Linkedin className="h-4 w-4" />
             </a>
           )}
           {member.email && (
-            <a href={`mailto:${member.email}`} className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
+            <a
+              href={`mailto:${member.email}`}
+              className="p-2 bg-white/40 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300"
+            >
               <Mail className="h-4 w-4" />
             </a>
           )}
@@ -117,7 +133,7 @@ const Team = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {facultyCore.map((member, index) => (
-              <TeamMemberCard key={index} member={member} showBio={true} />
+              <TeamMemberCard key={index} member={member} index={index} showBio={true} />
             ))}
           </div>
         </div>
@@ -130,11 +146,10 @@ const Team = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {studentCore.map((member, index) => (
-              <TeamMemberCard key={index} member={member} />
+              <TeamMemberCard key={index} member={member} index={index} />
             ))}
           </div>
         </div>
-
 
         {/* Join Our Community CTA */}
         <div className="text-center bg-background/80 backdrop-blur-sm border border-primary/20 rounded-2xl p-8 md:p-12">
@@ -149,15 +164,15 @@ const Team = () => {
             and change-makers in our vibrant community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="https://chat.whatsapp.com/EDkRyIlEgmvFmAyWFNGcxQ?mode=ac_t" 
-              target="_blank" 
+            <a
+              href="https://chat.whatsapp.com/EDkRyIlEgmvFmAyWFNGcxQ?mode=ac_t"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:-translate-y-0.5 shadow-md hover:shadow-lg inline-block"
             >
               WhatsApp Community
             </a>
-            <a 
+            <a
               href="https://www.instagram.com/iic.nitt?igsh=MWZsMXlzdGU2cjhwMQ=="
               target="_blank"
               rel="noopener noreferrer"
