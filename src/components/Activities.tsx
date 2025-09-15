@@ -130,11 +130,11 @@ const Activities = () => {
                     <div className="flex items-start space-x-4">
                       <div className="bg-gradient-hero text-primary-foreground rounded-lg p-3 min-w-fit">
                         <Calendar className="h-6 w-6 text-black" />
-                        <div className="text-sm font-semibold mt-1">{event.date}</div>
+                        <div className="text-sm/black font-semibold mt-1">{event.date}</div>
                       </div>
                       <div className="flex-1">
                         <div className="flex items-center space-x-3 mb-2">
-                          <h4 className="text-xl font-semibold">{event.title}</h4>
+                          <h4 className="text-xl/black font-semibold">{event.title}</h4>
                           <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">
                             {event.category}
                           </span>
