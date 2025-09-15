@@ -85,7 +85,7 @@ const Activities = () => {
           ))}
           
           {/* Eureka - Coming Soon */}
-          <Card className="border-primary/20 hover:shadow-card transition-all duration-300 group relative overflow-hidden">
+          <Card className="border-primary/20 hover:shadow-card transition-all duration-300 group relative overflow-hidden text-black">
             <CardContent className="p-6 text-center">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
