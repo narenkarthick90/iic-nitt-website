@@ -36,7 +36,7 @@ const Team = () => {
     {
       name: "Ritik Siklighar",
       position: "Vice President",
-      department: "Final Year, CSE",
+      department: "Final Year, ECE",
       image: "",
       expertise: ["Product Development", "Technology"],
       linkedin: "https://www.linkedin.com/in/ritik-siklighar-aab696254/",
@@ -45,7 +45,7 @@ const Team = () => {
     {
       name: "Arjun B K",
       position: "Innovation Secretary",
-      department: "Final Year, ECE",
+      department: "Final Year, Mech",
       image: "",
       expertise: ["Innovation Strategy", "Research"],
       linkedin: "https://www.linkedin.com/in/arjun-b-k",
