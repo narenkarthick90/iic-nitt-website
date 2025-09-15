@@ -63,7 +63,7 @@ const Startups = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 flex items-center justify-center">
             <Building2 className="h-12 w-12 text-primary mr-4" />
-            <span className="text-primary">Startup</span> <span className="text-secondary">Support</span>
+            <span className="text-primary">Startup</span> <span className="text-primary ml-2">Support</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Discover successful startups incubated at IIC NITT and learn about our comprehensive 
