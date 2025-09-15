@@ -60,8 +60,8 @@ const Team = () => {
         <div className="mb-4 flex justify-center">
           <Avatar className="h-20 w-20">
             <AvatarImage src={member.image} alt={member.name} />
-            <AvatarFallback className="bg-gradient-hero text-black text-lg">
-              {member.name.split(' ').map((n: string) => n[0]).join('')}
+            <AvatarFallback className="bg-gradient-hero">
+              <User className="h-10 w-10 text-primary" />
             </AvatarFallback>
           </Avatar>
         </div>
