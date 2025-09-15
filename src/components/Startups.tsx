@@ -80,7 +80,7 @@ const Startups = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {supportServices.map((service, index) => (
-              <Card key={index} className="border-primary/20 hover:shadow-card transition-all duration-300 text-center group">
+              <Card key={index} className="border-primary/20 hover:shadow-card transition-all duration-300 text-center group text-black">
                 <CardContent className="p-6">
                   <div className="mb-4 flex justify-center">
                     <div className="p-3 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
