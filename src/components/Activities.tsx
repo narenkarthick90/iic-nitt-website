@@ -106,7 +106,7 @@ const Activities = () => {
           <Card className="border-primary/20 bg-gradient-card p-8 text-center">
             <div className="mb-6 flex justify-center">
               <div className="p-4 bg-gradient-hero rounded-lg">
-                <Trophy className="h-12 w-12 text-primary" />
+                <Trophy className="h-12 w-12 text-black" />
               </div>
             </div>
             <h3 className="text-3xl font-bold mb-4">Genesis</h3>
