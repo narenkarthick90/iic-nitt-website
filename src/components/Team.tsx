@@ -8,7 +8,7 @@ const Team = () => {
     {
       name: "Mr. Gideon",
       position: "Director & Chief Patron",
-      department: "Office of the Director",
+      
       image: "",
       bio: "Leading institutional innovation initiatives with 25+ years of academic excellence",
       expertise: ["Innovation Strategy", "Institutional Leadership"]
@@ -16,7 +16,7 @@ const Team = () => {
     {
       name: "Muthukumaran",
       position: "Faculty Coordinator",
-      department: "Department of Computer Science",
+    
       image: "",
       bio: "Driving innovation and entrepreneurship initiatives with strategic leadership",
       expertise: ["Leadership", "Strategic Planning", "Innovation Management"]
@@ -60,7 +60,7 @@ const Team = () => {
         <div className="mb-4 flex justify-center">
           <Avatar className="h-20 w-20">
             <AvatarImage src={member.image} alt={member.name} />
-            <AvatarFallback className="bg-gradient-hero text-primary-foreground text-lg">
+            <AvatarFallback className="bg-gradient-hero text-black text-lg">
               {member.name.split(' ').map((n: string) => n[0]).join('')}
             </AvatarFallback>
           </Avatar>
