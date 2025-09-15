@@ -7,15 +7,15 @@ const Team = () => {
   const facultyCore = [
     {
       name: "Mr. Gideon",
-      position: "Director & Chief Patron",
+      position: "IIC Convenor",
       
       image: "",
-      bio: "Leading institutional innovation initiatives with 25+ years of academic excellence",
+      bio: "Leading institutional innovation initiatives with years of academic excellence",
       expertise: ["Innovation Strategy", "Institutional Leadership"]
     },
     {
       name: "Muthukumaran",
-      position: "Faculty Coordinator",
+      position: "Faculty President",
     
       image: "",
       bio: "Driving innovation and entrepreneurship initiatives with strategic leadership",
