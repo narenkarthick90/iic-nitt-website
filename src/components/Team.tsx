@@ -125,7 +125,7 @@ const Team = () => {
         {/* Student Core */}
         <div className="mb-16">
           <h3 className="text-3xl font-bold text-center mb-12 flex items-center justify-center">
-            <Users className="h-8 w-8 text-primary mr-3" />
+            <Users2 className="h-8 w-8 text-primary mr-3" />
             Student Core
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
