@@ -129,7 +129,7 @@ const Activities = () => {
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <div className="bg-gradient-hero text-primary-foreground rounded-lg p-3 min-w-fit">
-                        <Calendar className="h-6 w-6" />
+                        <Calendar className="h-6 w-6 text-black" />
                         <div className="text-sm font-semibold mt-1">{event.date}</div>
                       </div>
                       <div className="flex-1">
