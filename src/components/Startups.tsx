@@ -75,8 +75,8 @@ const Startups = () => {
         {/* Support Services */}
         <div>
           <h3 className="text-3xl font-bold text-center mb-12 flex items-center justify-center">
-            <Target className="h-8 w-8 text-primary mr-3" />
-            How We Support Startups
+            <Target className="h-8 w-8 text-accent mr-3" />
+            <span className="text-accent">How We Support Startups</span>
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {supportServices.map((service, index) => (
@@ -96,7 +96,7 @@ const Startups = () => {
 
           {/* CTA Section */}
           <div className="text-center bg-gradient-hero rounded-2xl p-8 md:p-12">
-            <h4 className="text-3xl font-bold text-black mb-4">
+            <h4 className="text-3xl font-bold text-secondary mb-4">
               Ready to Launch Your Startup?
             </h4>
             <p className="text-black/90 text-lg mb-8 max-w-2xl mx-auto " >
