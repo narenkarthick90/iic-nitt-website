@@ -128,7 +128,7 @@ const Activities = () => {
                 <Card key={index} className="border-primary/20 hover:shadow-card transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className="bg-gradient-hero text-primary-foreground rounded-lg p-3 min-w-fit">
+                      <div className="bg-gradient-hero text-black rounded-lg p-3 min-w-fit">
                         <Calendar className="h-6 w-6 text-black" />
                         <div className="text-sm/black font-semibold mt-1">{event.date}</div>
                       </div>
