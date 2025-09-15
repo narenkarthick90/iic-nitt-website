@@ -89,7 +89,7 @@ const Activities = () => {
             <CardContent className="p-6 text-center">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
-                  <Rocket className="h-8 w-8 text-primary-foreground" />
+                  <Rocket className="h-8 w-8 text-black" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold mb-4">Eureka</h3>
