@@ -99,7 +99,7 @@ const Startups = () => {
             <h4 className="text-3xl font-bold text-black mb-4">
               Ready to Launch Your Startup?
             </h4>
-            <p className="text-primary-foreground/90 text-lg mb-8 max-w-2xl mx-auto text-black" >
+            <p className="text-black/90 text-lg mb-8 max-w-2xl mx-auto " >
               Join our incubation program and transform your innovative idea into a successful business 
               with comprehensive support and mentorship.
             </p>
@@ -107,7 +107,7 @@ const Startups = () => {
               <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
                 Apply for Incubation
               </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90">
                 Schedule a Consultation
               </Button>
             </div>
