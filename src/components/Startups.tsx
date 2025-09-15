@@ -104,7 +104,7 @@ const Startups = () => {
               with comprehensive support and mentorship.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
+              <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90">
                 Apply for Incubation
               </Button>
               <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90">
