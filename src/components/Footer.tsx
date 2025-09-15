@@ -156,7 +156,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <img src={nittLogo} alt="NITT Logo" className="w-12 h-12" />
                 <div>
-                  <p className="text-foreground font-semibold">NIT Tiruchirappalli</p>
+                  <p className="text-secondary font-semibold">NIT Tiruchirappalli</p>
                   <p className="text-muted-foreground text-sm">Institute of National Importance</p>
                 </div>
               </div>
@@ -167,7 +167,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           <p className="text-muted-foreground text-sm">
-            © 2024 Institution's Innovation Council, NIT Tiruchirappalli. All rights reserved.
+            © 2024 Institution's Innovation Council, <span className="text-secondary">NIT Tiruchirappalli</span>. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">

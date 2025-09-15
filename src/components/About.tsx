@@ -34,7 +34,7 @@ const About = () => {
             <span className="text-primary">About</span> <span className="text-primary">IIC</span> <span className="text-primary">NITT</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            The Institution's Innovation Council at NIT Tiruchirappalli is dedicated to building 
+            The Institution's Innovation Council at <span className="text-secondary">NIT Tiruchirappalli</span> is dedicated to building 
             an innovation ecosystem that nurtures creativity, entrepreneurship, and breakthrough thinking.
           </p>
         </div>

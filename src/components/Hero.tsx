@@ -41,7 +41,7 @@ const Hero = () => {
             <br />
             <span className="text-primary">Innovation Council</span>
             <br />
-            <span className="text-2xl md:text-4xl font-normal text-primary">
+            <span className="text-2xl md:text-4xl font-normal text-secondary">
               NIT Tiruchirappalli
             </span>
           </h1>
