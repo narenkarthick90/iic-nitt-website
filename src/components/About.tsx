@@ -41,7 +41,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h3 className="text-3xl font-bold mb-6"><span className="text-primary">Empowering</span> <span className="text-primary">Innovation</span> <span className="text-tertiary">Excellence</span></h3>
+            <h3 className="text-3xl font-bold mb-6"><span className="text-primary">Empowering</span> <span className="text-primary">Innovation</span> <span className="text-primary">Excellence</span></h3>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               Established under the Ministry of Education's Innovation Cell initiative, IIC NITT serves as 
               the catalyst for transforming innovative ideas into impactful solutions. We bridge the gap 
