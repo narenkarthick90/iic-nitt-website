@@ -62,7 +62,7 @@ const About = () => {
                 <CardContent className="p-6 text-center">
                   <div className="mb-4 flex justify-center">
                     <div className="p-3 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
-                      <feature.icon className="h-8 w-8 text-black"/>
+                      <feature.icon className="h-8 w-8 text-primary"/>
                     </div>
                   </div>
                   <h4 className="text-lg font-semibold mb-3">{feature.title}</h4>
