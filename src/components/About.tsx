@@ -62,7 +62,7 @@ const About = () => {
                 <CardContent className="p-6 text-center">
                   <div className="mb-4 flex justify-center">
                     <div className="p-3 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
-                      <feature.icon className="h-8 w-8 text-primary"/>
+                      <feature.icon className="h-8 w-8 text-accent"/>
                     </div>
                   </div>
                   <h4 className="text-lg font-semibold mb-3">{feature.title}</h4>
@@ -74,7 +74,7 @@ const About = () => {
         </div>
 
         {/* Vision & Mission */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
           <Card className="border-primary/20 hover:shadow-card transition-all duration-300">
             <CardContent className="p-8">
               <div className="flex items-center mb-6">
