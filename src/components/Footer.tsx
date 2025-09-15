@@ -156,7 +156,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <img src={nittLogo} alt="NITT Logo" className="w-12 h-12" />
                 <div>
-                  <p className="text-secondary font-semibold">NIT Tiruchirappalli</p>
+                  <p className="text-foreground font-semibold">NIT Tiruchirappalli</p>
                   <p className="text-muted-foreground text-sm">Institute of National Importance</p>
                 </div>
               </div>
