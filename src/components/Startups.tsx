@@ -84,7 +84,7 @@ const Startups = () => {
                 <CardContent className="p-6">
                   <div className="mb-4 flex justify-center">
                     <div className="p-3 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
-                      <service.icon className="h-8 w-8 text-primary-foreground" />
+                      <service.icon className="h-8 w-8 text-black" />
                     </div>
                   </div>
                   <h4 className="text-lg font-semibold mb-3">{service.title}</h4>
