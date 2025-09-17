@@ -5,14 +5,7 @@ import { Linkedin, Mail, User, GraduationCap, Users2 } from "lucide-react";
 
 const Team = () => {
   const facultyCore = [
-    {
-      name: "Mr. Gideon",
-      position: "IIC Convenor",
-      
-      image: "",
-      bio: "Leading institutional innovation initiatives with years of academic excellence",
-      expertise: ["Innovation Strategy", "Institutional Leadership"]
-    },
+
     {
       name: "Muthukumaran",
       position: "Faculty President",
@@ -20,6 +13,14 @@ const Team = () => {
       image: "",
       bio: "Driving innovation and entrepreneurship initiatives with strategic leadership",
       expertise: ["Leadership", "Strategic Planning", "Innovation Management"]
+    },
+        {
+      name: "Mr. Gideon",
+      position: "IIC Convenor",
+      
+      image: "",
+      bio: "Leading institutional innovation initiatives with years of academic excellence",
+      expertise: ["Innovation Strategy", "Institutional Leadership"]
     }
   ];
 
