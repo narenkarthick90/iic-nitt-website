@@ -27,8 +27,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-card border-t border-border py-16">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gradient-subtle border-t border-primary/20 py-20 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-premium opacity-50" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-1">
@@ -46,13 +47,13 @@ const Footer = () => {
               Fostering innovation and entrepreneurship at NIT Tiruchirappalli through 
               comprehensive programs and mentorship.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-3">
               {socialLinks.map((social, index) => (
                 <a
                   key={index}
                   href={social.href}
                   aria-label={social.label}
-                  className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300"
+                  className="p-3 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-xl transition-all duration-300 hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-xl"
                 >
                   <social.icon className="h-5 w-5" />
                 </a>
