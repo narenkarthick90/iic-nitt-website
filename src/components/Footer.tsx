@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
               <div className="flex items-center space-x-2">
-                <img src={iicLogo} alt="IIC Logo" className="h-8 w-8" />
+                <img src={iicLogo} alt="IIC Logo" className="h-8 w-12" />
                 <img src={nittLogo} alt="NITT Logo" className="h-8 w-8" />
               </div>
               <div>
