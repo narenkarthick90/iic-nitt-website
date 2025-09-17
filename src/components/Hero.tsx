@@ -28,9 +28,9 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-gradient-card border border-primary/20 rounded-full px-4 py-2 mb-8">
+          <div className="inline-flex items-center space-x-2 bg-gradient-subtle border border-primary/30 rounded-full px-6 py-3 mb-8 shadow-soft backdrop-blur-sm">
             <Sparkles className="h-4 w-4 text-primary animate-glow" />
-            <span className="text-sm font-medium text-foreground">Ministry of Education Initiative</span>
+            <span className="text-sm font-semibold text-foreground">Ministry of Education Initiative</span>
           </div>
 
           {/* Main Heading */}
@@ -69,26 +69,32 @@ const Hero = () => {
 
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="flex items-center justify-center mb-3">
-                <TrendingUp className="h-8 w-8 text-primary" />
+            <div className="bg-gradient-card border border-primary/30 rounded-2xl p-8 hover:shadow-card hover:-translate-y-1 transition-all duration-300 backdrop-blur-sm">
+              <div className="flex items-center justify-center mb-4">
+                <div className="p-3 bg-primary/10 rounded-full">
+                  <TrendingUp className="h-8 w-8 text-primary" />
+                </div>
               </div>
-              <div className="text-3xl font-bold text-primary mb-2 text-center">20+</div>
-              <div className="text-muted-foreground text-center">Active Startups</div>
+              <div className="text-4xl font-bold text-primary mb-2 text-center">20+</div>
+              <div className="text-muted-foreground text-center font-medium">Active Startups</div>
             </div>
-            <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="flex items-center justify-center mb-3">
-                <BookOpen className="h-8 w-8 text-secondary" />
+            <div className="bg-gradient-card border border-secondary/30 rounded-2xl p-8 hover:shadow-card hover:-translate-y-1 transition-all duration-300 backdrop-blur-sm">
+              <div className="flex items-center justify-center mb-4">
+                <div className="p-3 bg-secondary/10 rounded-full">
+                  <BookOpen className="h-8 w-8 text-secondary" />
+                </div>
               </div>
-              <div className="text-3xl font-bold text-secondary mb-2 text-center">100+</div>
-              <div className="text-muted-foreground text-center">Programs</div>
+              <div className="text-4xl font-bold text-secondary mb-2 text-center">100+</div>
+              <div className="text-muted-foreground text-center font-medium">Programs</div>
             </div>
-            <div className="bg-gradient-card border border-primary/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
-              <div className="flex items-center justify-center mb-3">
-                <Award className="h-8 w-8 text-tertiary" />
+            <div className="bg-gradient-card border border-tertiary/30 rounded-2xl p-8 hover:shadow-card hover:-translate-y-1 transition-all duration-300 backdrop-blur-sm">
+              <div className="flex items-center justify-center mb-4">
+                <div className="p-3 bg-tertiary/10 rounded-full">
+                  <Award className="h-8 w-8 text-tertiary" />
+                </div>
               </div>
-              <div className="text-3xl font-bold text-tertiary mb-2 text-center">1000+</div>
-              <div className="text-muted-foreground text-center">Students Impacted</div>
+              <div className="text-4xl font-bold text-tertiary mb-2 text-center">1000+</div>
+              <div className="text-muted-foreground text-center font-medium">Students Impacted</div>
             </div>
           </div>
         </div>

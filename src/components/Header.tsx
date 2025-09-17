@@ -17,8 +17,8 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <div className="container mx-auto px-4 py-4">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/85 backdrop-blur-lg border-b border-border/60 shadow-soft">
+      <div className="container mx-auto px-4 py-5">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
@@ -47,7 +47,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="hero" size="lg">
+            <Button variant="hero" size="lg" className="shadow-soft hover:shadow-card">
               Join Innovation
             </Button>
           </div>
