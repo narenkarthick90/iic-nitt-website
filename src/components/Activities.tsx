@@ -115,7 +115,7 @@ const Activities = () => {
             </p>
             <div className="inline-flex items-center">
               <a
-                 href="" target="_blank" rel="noopener noreferrer"
+                 href="https://sih-iic-results.netlify.app/" target="_blank" rel="noopener noreferrer"
                  className="px-6 py-3 text-lg font-semibold text-white bg-green-600 rounded-full shadow-md 
                         hover:bg-green-700 transition-colors duration-300">View Result</a>
              </div>
