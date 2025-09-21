@@ -78,17 +78,16 @@ const Startups = () => {
             <Target className="h-8 w-8 text-accent mr-3" />
             <span className="text-accent">How We Support Startups</span>
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {supportServices.map((service, index) => (
-              <Card key={index} className="glass-card hover-lift group text-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-premium opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <CardContent className="p-8 relative z-10">
-                  <div className="mb-6 flex justify-center">
-                    <div className="p-4 bg-gradient-hero rounded-2xl group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 shadow-lg">
-                      <service.icon className="h-10 w-10 text-accent" />
+              <Card key={index} className="border-primary/20 hover:shadow-card transition-all duration-300 text-center group text-black">
+                <CardContent className="p-6">
+                  <div className="mb-4 flex justify-center">
+                    <div className="p-3 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
+                      <service.icon className="h-8 w-8 text-accent" />
                     </div>
                   </div>
-                  <h4 className="text-lg font-bold mb-4 group-hover:gradient-text transition-all duration-300">{service.title}</h4>
+                  <h4 className="text-lg font-semibold mb-3">{service.title}</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">{service.description}</p>
                 </CardContent>
               </Card>

@@ -56,44 +56,40 @@ const Team = () => {
 
 
   const TeamMemberCard = ({ member, showBio = false }: { member: any, showBio?: boolean }) => (
-    <Card className="glass-card hover-lift group relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-premium opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-      <CardContent className="p-8 text-center relative z-10">
-        <div className="mb-6 flex justify-center">
-          <div className="relative">
-            <Avatar className="h-24 w-24 ring-4 ring-primary/20 group-hover:ring-primary/40 transition-all duration-300">
-              <AvatarImage src={member.image} alt={member.name} />
-              <AvatarFallback className="bg-gradient-hero text-2xl">
-                <User className="h-12 w-12 text-white" />
-              </AvatarFallback>
-            </Avatar>
-            <div className="absolute -top-1 -right-1 w-6 h-6 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-glow" />
-          </div>
+    <Card className="border-primary/20 hover:shadow-card transition-all duration-300 group">
+      <CardContent className="p-6 text-center">
+        <div className="mb-4 flex justify-center">
+          <Avatar className="h-20 w-20">
+            <AvatarImage src={member.image} alt={member.name} />
+            <AvatarFallback className="bg-gradient-hero">
+              <User className="h-10 w-10 text-primary" />
+            </AvatarFallback>
+          </Avatar>
         </div>
-        <h4 className="text-xl font-bold mb-2 group-hover:gradient-text transition-all duration-300">{member.name}</h4>
-        <p className="text-primary font-semibold mb-3">{member.position}</p>
-        <p className="text-sm text-muted-foreground mb-4 font-medium">
+        <h4 className="text-lg font-semibold mb-1">{member.name}</h4>
+        <p className="text-primary font-medium mb-2">{member.position}</p>
+        <p className="text-sm text-muted-foreground mb-3">
           {member.department || member.company}
         </p>
         {showBio && member.bio && (
-          <p className="text-sm text-muted-foreground mb-6 leading-relaxed bg-muted/30 rounded-lg p-3">{member.bio}</p>
+          <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{member.bio}</p>
         )}
-        <div className="flex flex-wrap gap-2 justify-center mb-6">
+        <div className="flex flex-wrap gap-1 justify-center mb-4">
           {member.expertise.map((skill: string, index: number) => (
-            <Badge key={index} variant="secondary" className="text-xs font-medium px-3 py-1 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300">
+            <Badge key={index} variant="secondary" className="text-xs">
               {skill}
             </Badge>
           ))}
         </div>
-        <div className="flex justify-center space-x-3 opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="flex justify-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           {member.linkedin && (
-            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="p-3 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-xl transition-all duration-300 hover:scale-110 shadow-lg">
-              <Linkedin className="h-5 w-5" />
+            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
+              <Linkedin className="h-4 w-4" />
             </a>
           )}
           {member.email && (
-            <a href={`mailto:${member.email}`} className="p-3 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-xl transition-all duration-300 hover:scale-110 shadow-lg">
-              <Mail className="h-5 w-5" />
+            <a href={`mailto:${member.email}`} className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg transition-all duration-300">
+              <Mail className="h-4 w-4" />
             </a>
           )}
         </div>
