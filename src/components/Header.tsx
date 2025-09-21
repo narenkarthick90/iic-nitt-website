@@ -18,13 +18,13 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/85 backdrop-blur-lg border-b border-border/60 shadow-soft">
-      <div className="container mx-auto px-4 py-5">
+      <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="flex items-center space-x-2">
-              <img src={iicLogo} alt="IIC Logo" className="h-10 w-15" />
-              <img src={nittLogo} alt="NITT Logo" className="h-10 w-10" />
+              <img src={iicLogo} alt="IIC Logo" className="h-8 w-12" />
+              <img src={nittLogo} alt="NITT Logo" className="h-8 w-8" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground">IIC NITT</h1>
