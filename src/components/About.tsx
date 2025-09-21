@@ -27,7 +27,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gradient-card">
+    <section id="about" className="py-24 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -58,15 +58,15 @@ const About = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {features.map((feature, index) => (
-              <Card key={index} className="border-primary/20 hover:shadow-card transition-all duration-300 group">
-                <CardContent className="p-6 text-center">
-                  <div className="mb-4 flex justify-center">
-                    <div className="p-3 bg-gradient-hero rounded-lg group-hover:scale-110 transition-transform duration-300">
-                      <feature.icon className="h-8 w-8 text-accent"/>
+              <Card key={index} className="border-primary/30 hover:shadow-card hover:-translate-y-2 transition-all duration-300 group bg-gradient-card/50 backdrop-blur-sm">
+                <CardContent className="p-8 text-center">
+                  <div className="mb-6 flex justify-center">
+                    <div className="p-4 bg-gradient-hero rounded-xl group-hover:scale-110 transition-all duration-300 shadow-soft">
+                      <feature.icon className="h-8 w-8 text-white"/>
                     </div>
                   </div>
-                  <h4 className="text-lg font-semibold mb-3">{feature.title}</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{feature.description}</p>
+                  <h4 className="text-xl font-bold mb-4 text-foreground">{feature.title}</h4>
+                  <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -75,15 +75,15 @@ const About = () => {
 
         {/* Vision & Mission */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
-          <Card className="border-primary/20 hover:shadow-card transition-all duration-300">
-            <CardContent className="p-8">
-              <div className="flex items-center mb-6">
-                <div className="p-3 bg-primary/10 rounded-lg mr-4">
-                  <Eye className="h-8 w-8 text-primary" />
+          <Card className="border-primary/30 hover:shadow-card hover:-translate-y-1 transition-all duration-300 bg-gradient-card/70 backdrop-blur-sm">
+            <CardContent className="p-10">
+              <div className="flex items-center mb-8">
+                <div className="p-4 bg-primary/10 rounded-xl mr-6 shadow-soft">
+                  <Eye className="h-10 w-10 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold flex items-center"><span className="text-primary">Our</span> <span className="text-primary ml-2">Vision</span></h3>
+                <h3 className="text-3xl font-bold flex items-center"><span className="text-primary">Our</span> <span className="text-primary ml-2">Vision</span></h3>
               </div>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed text-lg">
                 To establish NITT as a leading innovation hub that produces world-class entrepreneurs 
                 and innovators who create sustainable solutions for global challenges while contributing 
                 to India's economic growth and technological advancement.
@@ -91,15 +91,15 @@ const About = () => {
             </CardContent>
           </Card>
 
-          <Card className="border-primary/20 hover:shadow-card transition-all duration-300">
-            <CardContent className="p-8">
-              <div className="flex items-center mb-6">
-                <div className="p-3 bg-secondary/10 rounded-lg mr-4">
-                  <Target className="h-8 w-8 text-secondary" />
+          <Card className="border-secondary/30 hover:shadow-card hover:-translate-y-1 transition-all duration-300 bg-gradient-card/70 backdrop-blur-sm">
+            <CardContent className="p-10">
+              <div className="flex items-center mb-8">
+                <div className="p-4 bg-secondary/10 rounded-xl mr-6 shadow-soft">
+                  <Target className="h-10 w-10 text-secondary" />
                 </div>
-                <h3 className="text-2xl font-bold flex items-center"><span className="text-secondary">Our</span> <span className="text-secondary ml-2">Mission</span></h3>
+                <h3 className="text-3xl font-bold flex items-center"><span className="text-secondary">Our</span> <span className="text-secondary ml-2">Mission</span></h3>
               </div>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed text-lg">
                 To foster innovation and entrepreneurship through comprehensive programs, mentorship, 
                 and resources that enable students to transform ideas into impactful ventures while 
                 developing essential skills for the 21st-century economy.
