@@ -92,8 +92,8 @@ const Activities = () => {
                   <Rocket className="h-8 w-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Eureka</h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">Revolutionary innovation program launching soon</p>
+              <h3 className="text-xl font-semibold mb-4">Genesis</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">Our flagship innovation discovery platform - where breakthrough ideas meet exceptional execution</p>
               <div className="absolute top-4 right-4 bg-secondary text-secondary-foreground text-xs px-2 py-1 rounded-full">
                 Coming Soon
               </div>
@@ -101,7 +101,7 @@ const Activities = () => {
           </Card>
         </div>
 
-        {/* Genesis Section */}
+        {/* SIH'25 Section */}
         <div className="mb-16">
           <Card className="border-primary/20 bg-gradient-card p-8 text-center">
             <div className="mb-6 flex justify-center">
@@ -109,13 +109,17 @@ const Activities = () => {
                 <Trophy className="h-12 w-12 text-black" />
               </div>
             </div>
-            <h3 className="text-3xl font-bold mb-4">Genesis</h3>
+            <h3 className="text-3xl font-bold mb-4">SIH'25 Results</h3>
             <p className="text-muted-foreground text-lg mb-6 max-w-2xl mx-auto">
-              Our flagship innovation discovery platform - where breakthrough ideas meet exceptional execution
+              Here's the inter-college results for SIH 2025.
             </p>
-            <div className="inline-flex items-center space-x-2 bg-secondary/20 border border-secondary/40 rounded-full px-4 py-2">
-              <span className="text-sm font-medium text-secondary">Coming Soon</span>
-            </div>
+            <div className="inline-flex items-center">
+              <a
+                 href="" target="_blank" rel="noopener noreferrer"
+                 className="px-6 py-3 text-lg font-semibold text-white bg-green-600 rounded-full shadow-md 
+                        hover:bg-green-700 transition-colors duration-300">View Result</a>
+             </div>
+
           </Card>
         </div>
 
