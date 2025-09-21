@@ -28,7 +28,7 @@ const Team = () => {
     {
       name: "Surender",
       position: "President",
-      department: "Final Year, ECE",
+      department: "Final Year, ICE",
       image: "",
       expertise: ["Innovation Management", "Team Leadership"],
       linkedin: "https://www.linkedin.com/in/surender-p-a135a325a/",
@@ -37,7 +37,7 @@ const Team = () => {
     {
       name: "Ritik Siklighar",
       position: "Vice President",
-      department: "Final Year, ECE",
+      department: "Final Year, EEE",
       image: "",
       expertise: ["Product Development", "Technology"],
       linkedin: "https://www.linkedin.com/in/ritik-siklighar-aab696254/",
@@ -46,7 +46,7 @@ const Team = () => {
     {
       name: "Arjun B K",
       position: "Innovation Secretary",
-      department: "Final Year, Mech",
+      department: "Final Year, EEE",
       image: "",
       expertise: ["Innovation Strategy", "Research"],
       linkedin: "https://www.linkedin.com/in/arjun-b-k",
