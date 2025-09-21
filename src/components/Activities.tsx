@@ -106,7 +106,7 @@ const Activities = () => {
           <Card className="border-primary/20 bg-gradient-card p-8 text-center">
             <div className="mb-6 flex justify-center">
               <div className="p-4 bg-gradient-hero rounded-lg">
-                <Trophy className="h-12 w-12 text-black" />
+                <Trophy className="h-12 w-12 text-green-400 group-hover:text-green-700 transition-colors duration-300" />
               </div>
             </div>
             <h3 className="text-3xl font-bold mb-4">SIH'25 Results</h3>
