@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Trophy, Presentation, Users, BookOpen, Rocket, ArrowRight } from "lucide-react";
+import { Calendar, Trophy, Presentation, Users, BookOpen, Lightbulb, Rocket,ArrowRight } from "lucide-react";
 
 const Activities = () => {
   const activities = [
@@ -92,11 +92,11 @@ const Activities = () => {
             <CardContent className="p-8 text-center relative z-10">
               <div className="mb-8 flex justify-center">
                 <div className="p-6 bg-gradient-hero rounded-2xl group-hover:scale-125 group-hover:-rotate-12 transition-all duration-500 shadow-xl animate-pulse-slow">
-                  <Rocket className="h-12 w-12 text-white" />
+                  <Lightbulb className="h-12 w-12 text-white" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 gradient-text">Eureka</h3>
-              <p className="text-muted-foreground leading-relaxed mb-6 text-sm">Revolutionary innovation program launching soon</p>
+              <h3 className="text-2xl font-bold mb-4 gradient-text">Genesis</h3>
+              <p className="text-muted-foreground leading-relaxed mb-6 text-sm">Our flagship innovation discovery platform - where breakthrough ideas meet exceptional execution</p>
               <div className="absolute top-6 right-6 bg-secondary text-secondary-foreground text-xs px-3 py-2 rounded-full font-semibold animate-glow">
                 Coming Soon
               </div>
@@ -112,16 +112,19 @@ const Activities = () => {
                 <Trophy className="h-12 w-12 text-black" />
               </div>
             </div>
-            <h3 className="text-3xl font-bold mb-4">Genesis</h3>
+            <h3 className="text-3xl font-bold mb-4">SIH Result'25</h3>
             <p className="text-muted-foreground text-lg mb-6 max-w-2xl mx-auto">
-              Our flagship innovation discovery platform - where breakthrough ideas meet exceptional execution
+                Proud to share that our team has cleared the <strong>Inter-College Round of Smart India Hackathon</strong>, securing a spot in the next stage with our innovative solution!
             </p>
-            <div className="inline-flex items-center space-x-2 bg-secondary/20 border border-secondary/40 rounded-full px-4 py-2">
-              <span className="text-sm font-medium text-secondary">Coming Soon</span>
-            </div>
+            <div className="inline-flex items-center">
+              <a
+                 href="" target="_blank" rel="noopener noreferrer"
+                 className="px-6 py-3 text-lg font-semibold text-white bg-green-600 rounded-full shadow-md 
+                        hover:bg-green-700 transition-colors duration-300">View Result</a>
+             </div>
+
           </Card>
         </div>
-
         {/* Upcoming Events */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
