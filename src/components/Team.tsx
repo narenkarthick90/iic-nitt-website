@@ -159,7 +159,7 @@ const Team = () => {
               WhatsApp Community
             </a>
             <a 
-              href="https://www.instagram.com/iic.nitt?igsh=MWZsMXlzdGU2cjhwMQ=="
+              href="https://www.instagram.com/iic.nitt/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary/40 px-8 py-3 rounded-lg font-medium transition-all duration-300 inline-block"
