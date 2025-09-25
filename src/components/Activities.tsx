@@ -36,22 +36,22 @@ const Activities = () => {
 
   const upcomingEvents = [
     {
-      date: "15 Aug",
-      title: "Innovation Bootcamp 2024",
-      description: "3-day intensive program on design thinking and innovation",
-      category: "Workshop"
+      date: "6 Aug",
+      title: "NITT Premier Entrepreneurship Talk Series",
+      description: "Innovative Startup Ideas",
+      category: "Pre-incubation Program"
     },
     {
-      date: "22 Aug",
-      title: "Startup Pitch Competition",
-      description: "Present your startup idea to a panel of investors",
+      date: "10 Aug",
+      title: "SmartIDEAthon",
+      description: "Pitch your startup idea to a panel of investors",
       category: "Competition"
     },
     {
-      date: "05 Sep",
-      title: "Industry Expert Talk",
-      description: "Session on 'Building Scalable Tech Startups'",
-      category: "Seminar"
+      date: "20 Aug",
+      title: "Kick Off Startup Pre-Inubation Program",
+      description: "AI for Social Good",
+      category: "Pre-incubation Program"
     }
   ];
 
