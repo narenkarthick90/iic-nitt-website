@@ -144,10 +144,12 @@ const Activities = () => {
                           </span>
                         </div>
                         <p className="text-muted-foreground mb-4">{event.description}</p>
-                        <Button variant="outline" size="sm">
-                          Learn More
-                          <ArrowRight className="h-4 w-4" />
-                        </Button>
+                        <a href="https://www.instagram.com/iic.nitt/">
+                          <Button variant="outline" size="sm">
+                            Learn More
+                            <ArrowRight className="h-4 w-4" />
+                          </Button>
+                        </a>  
                       </div>
                     </div>
                   </CardContent>
