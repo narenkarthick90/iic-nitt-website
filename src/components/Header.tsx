@@ -48,11 +48,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link href="https://chat.whatsapp.com/EDkRyIlEgmvFmAyWFNGcxQ?mode=ac_t">
+            <a href="https://chat.whatsapp.com/EDkRyIlEgmvFmAyWFNGcxQ?mode=ac_t" target="_blank" rel="noopener noreferrer">
               <Button variant="hero" size="lg">
                 Join Innovation
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,9 +77,11 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <Button variant="hero" className="w-full mt-4">
-              Join Innovation
-            </Button>
+            <a href="https://chat.whatsapp.com/EDkRyIlEgmvFmAyWFNGcxQ?mode=ac_t" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" className="w-full mt-4">
+                Join Innovation
+              </Button>
+            </a>
           </div>
         )}
       </div>
