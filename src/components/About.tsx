@@ -51,11 +51,11 @@ const About = () => {
               Our mission is to create an ecosystem where students can explore, experiment, and excel 
               in their entrepreneurial journey while contributing to India's innovation landscape.
             </p>
-            <Link href="https://www.instagram.com/iic.nitt/?hl=en">
+            <a href="https://www.instagram.com/iic.nitt/?hl=en" target="_blank" rel="noopener noreferrer">
               <Button variant="hero" size="lg">
                 Learn More About Our Mission
               </Button>
-            </Link>
+            </a>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
