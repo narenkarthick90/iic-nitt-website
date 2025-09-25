@@ -104,12 +104,16 @@ const Startups = () => {
               with comprehensive support and mentorship.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90">
-                Apply for Incubation
-              </Button>
-              <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90">
-                Schedule a Consultation
-              </Button>
+              <a href="https://forms.gle/wMzGApabAgRvC5Hh8">
+                <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90">
+                  Apply for Incubation
+                </Button>
+              </a>
+              <a href="https://www.instagram.com/iic.nitt/">
+                <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90">
+                  Get to know us more
+                </Button>
+              </a>
             </div>
           </div>
         </div>
