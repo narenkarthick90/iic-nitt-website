@@ -8,7 +8,7 @@ const Team = () => {
 
     {
       name: "Muthukumaran",
-      position: "Faculty President",
+      position: "President",
     
       image: "",
       bio: "Driving innovation and entrepreneurship initiatives with strategic leadership",
@@ -27,7 +27,7 @@ const Team = () => {
   const studentCore = [
     {
       name: "Surender",
-      position: "President",
+      position: "Student President",
       department: "Final Year, ICE",
       image: "",
       expertise: ["Innovation Management", "Team Leadership"],
