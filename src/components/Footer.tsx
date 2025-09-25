@@ -131,10 +131,10 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
                 <a
-                  href="tel:+914312503000"
+                  href="tel:+917806933445"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm"
                 >
-                  +91 431 250 3000
+                  +91 78069 33445
                 </a>
               </div>
             </div>
@@ -167,7 +167,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           <p className="text-muted-foreground text-sm">
-            © 2024 Institution's Innovation Council, <span className="text-secondary">NIT Tiruchirappalli</span>. All rights reserved.
+            © 2025 Institution's Innovation Council, <span className="text-secondary">NIT Tiruchirappalli</span>. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">
